@@ -1,6 +1,6 @@
 Список команд для git
 git init
-git commit
+git commit -m "соообщение"
 git add
 git cat
 echo "текст" >имя файла
