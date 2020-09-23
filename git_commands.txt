@@ -1,1 +1,7 @@
 Список команд для git
+git init
+git commit
+git add
+git cat
+echo "текст" >имя файла
+git push -u origin master
