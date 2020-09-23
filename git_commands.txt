@@ -1,7 +1,14 @@
 Список команд для git
+
 git init
+
+git add имя файла
 git commit -m "соообщение"
-git add
+
 git cat
 echo "текст" >имя файла
+
+git remote add origin <url>.git
 git push -u origin master
+
+git submodule add <url> exercises-java  ---> клонирование
