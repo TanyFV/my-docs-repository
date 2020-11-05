@@ -243,7 +243,7 @@
             <property name="ignoreFinal" value="false"/>
             <property name="allowedAbbreviationLength" value="3"/>
             <property name="ignoreStatic" value="false"/>
-           <!--  <property name="ignoreStaticFinal" value="true"/>-->
+            <property name="ignoreStaticFinal" value="true"/>
             <property name="tokens"
              value="CLASS_DEF, INTERFACE_DEF, ENUM_DEF, ANNOTATION_DEF, ANNOTATION_FIELD_DEF,
                     PARAMETER_DEF, VARIABLE_DEF, METHOD_DEF"/>
@@ -264,7 +264,7 @@
         <module name="NoWhitespaceBefore">
             <property name="tokens"
              value="COMMA, SEMI, POST_INC, POST_DEC, DOT, ELLIPSIS,
-                    METHOD_REF"/>
+                    LABELED_STAT, METHOD_REF"/>
             <property name="allowLineBreaks" value="true"/>
         </module>
         <module name="ParenPad">
@@ -337,4 +337,5 @@
             <property name="optional" value="true"/>
         </module>
     </module>
+</module>
 </module>
